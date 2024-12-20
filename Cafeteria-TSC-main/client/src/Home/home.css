@@ -1,0 +1,31 @@
+.carousel-container{
+    height: 500px;
+}
+.carousel-image{
+    height: 400px;
+    width:100;
+    object-fit: cover;
+}
+.button-style{
+    border: none;
+    color:rgb(255, 255, 255);
+    border-radius: 3rem;
+    background: linear-gradient(90deg,rgb(247, 177, 38),rgb(247, 230, 38),rgb(191, 218, 39));
+}
+#orderbutton{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.button-style:hover{
+    background: linear-gradient(90deg,rgb(202, 148, 41),rgb(202, 186, 10),rgb(197, 128, 32));
+}
+.home-section{
+    
+}
+#homeh1{
+    font-family: 'Lilita One', cursive;
+}
+button:hover{
+    transition: transfrom .2 ease;
+    transform: scale(1.05);
+}

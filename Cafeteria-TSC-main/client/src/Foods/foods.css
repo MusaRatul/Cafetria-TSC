@@ -1,0 +1,10 @@
+.custom-card{
+    transition: transform .2 ease;
+    box-shadow: 0 2px 4px rgb(97, 92, 92);
+}
+.custom-card:hover{
+    transform: scale(1.05);
+}
+#food-image:hover{
+    transform: scale(1.05);
+}

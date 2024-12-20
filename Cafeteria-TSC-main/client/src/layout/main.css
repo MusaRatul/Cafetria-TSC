@@ -1,0 +1,49 @@
+#footer{
+    background-color: rgb(224, 163, 50);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: .25rem;
+    color: #ffffff;
+    
+}
+#footer,p{
+    color:#ffffff
+}
+header{
+    background: linear-gradient(90deg,rgb(247, 177, 38),rgb(247, 230, 38),rgb(247, 160, 38));
+    
+    color: white ;
+    
+    
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 231, 236);
+    min-height: 100vh;
+}
+.login-register{
+    position: absolute;
+    right: 0;
+}
+.link,p{
+    color:rgb(61, 84, 76);
+    
+}
+.no-bg{
+    /* background: none; */
+    border: none;
+}
+.categorybutton{
+    border: none;
+    background: linear-gradient(90deg,rgb(247, 177, 38),rgb(247, 230, 38),rgb(247, 160, 38));
+    ;
+    color: rgb(53, 45, 45);
+}
+.link-button:hover{
+    color: white; 
+    border: none;
+    text-decoration: dashed !important;
+}
